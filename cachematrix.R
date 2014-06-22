@@ -49,17 +49,18 @@ cacheSolve <- function(x, ...) {
 }
 
 ## Test examples
-## square matrix (2x2)
-d <- rbind(c(2, 4), c(1, 3)
-test <- makeCacheMatrix(d)
-cacheSolve(test)
-cacheSolve(test)
+
+## Example with a square matrix (2x2)
+## d <- rbind(c(2, 4), c(1, 3)
+## test <- makeCacheMatrix(d)
+## cacheSolve(test)
+## cacheSolve(test)
            
-## square matrix (4x4)
-d<- rbind(c(2, 4, 3, 4), c(1, 3, 9, 3), c(8, 5, 2, 9), c(2, 3, 6, 8))
-test <- makeCacheMatrix(d)
-cacheSolve(test)
-cacheSolve(test)
+## Example with a square matrix (4x4)
+## d<- rbind(c(2, 4, 3, 4), c(1, 3, 9, 3), c(8, 5, 2, 9), c(2, 3, 6, 8))
+## test <- makeCacheMatrix(d)
+## cacheSolve(test)
+## cacheSolve(test)
 
 
 
