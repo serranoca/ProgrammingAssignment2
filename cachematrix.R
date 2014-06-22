@@ -61,7 +61,3 @@ cacheSolve <- function(x, ...) {
 ## test <- makeCacheMatrix(d)
 ## cacheSolve(test)
 ## cacheSolve(test)
-
-
-
-           
